@@ -1,9 +1,9 @@
 import { Wrapper } from './styles'
 
-export const Main = () => {
-  return (
-    <Wrapper>
-      <p>Main</p>
-    </Wrapper>
-  )
+type Props = {
+  children: React.ReactChild
+}
+
+export const Main = ({ children }: Props) => {
+  return <Wrapper>{children}</Wrapper>
 }
