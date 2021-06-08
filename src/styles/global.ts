@@ -7,6 +7,10 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html, body, #__next {
+        height: 100vh;
+    }
+
     body {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
